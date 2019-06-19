@@ -31,7 +31,7 @@ class Deck extends React.Component{
 
         let card = availableCards.splice(currentNumber, 1);
 
-        onGrab(card);
+        onGrab(card[0]);
 
         this.setState({
             availableCards: availableCards
