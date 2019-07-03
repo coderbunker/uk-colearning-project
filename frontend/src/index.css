@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-container{
+  width: 100%;
+}
+
+.card-container .card{
+  float: left;
+}
+
+.card{
+  margin: 10px;
+  width: 106px;
+  height: 139px;
+  background-image: url('/img/packOfCards.png')
+}
+
