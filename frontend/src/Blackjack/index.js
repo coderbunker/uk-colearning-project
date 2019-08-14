@@ -25,7 +25,7 @@ class Blackjack extends React.Component {
             if (card.card === 0 && ((card.value + currentTotal) > 21)) {
                 valueToAdd = 1;
             } else {
-                valueToAdd = card.value + 1;
+                valueToAdd = card.value;
             }
 
             currentTotal += valueToAdd;
